@@ -1,0 +1,19 @@
+{
+    "name": "nrb/urp",
+    "description": "This is for user role permission.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "NRB",
+            "email": "sumonyahoo24@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Nrb\\UserRolePermission\\": "src/"
+        }
+    }
+}
