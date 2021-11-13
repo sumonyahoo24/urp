@@ -2,6 +2,7 @@
 
 namespace Nrb\UserRolePermission;
 
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\ServiceProvider;
 
 class UserRolePermissionServiceProvider extends ServiceProvider
@@ -34,5 +35,11 @@ class UserRolePermissionServiceProvider extends ServiceProvider
         foreach ($arrayPublishAble as $group=>$paths){
             $this->publishes($paths, $group);
         }
+    }
+
+    public function auth_user()
+    {
+        $data = "test";
+        return $data;
     }
 }

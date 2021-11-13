@@ -19,10 +19,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Nrb\\user_role_permission\\UserRolePermissionServiceProvider"
+                "Nrb\\UserRolePermission\\UserRolePermissionServiceProvider"
             ],
             "aliases": {
-                "Debugbar": "Nrb\\user_role_permission\\Urp"
+                "Debugbar": "Nrb\\UserRolePermission\\UserRolePermissionServiceProvider"
             }
         }
     }
