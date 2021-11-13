@@ -15,5 +15,15 @@
         "psr-4": {
             "Nrb\\UserRolePermission\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Nrb\\user_role_permission\\UserRolePermissionServiceProvider"
+            ],
+            "aliases": {
+                "Debugbar": "Nrb\\user_role_permission\\Urp"
+            }
+        }
     }
 }
